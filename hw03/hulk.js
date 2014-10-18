@@ -27,7 +27,7 @@ var hulk={
         return this;
     },
     attr:function(){
-        if (arguments.length==1){
+        if (arguments.length==2){
             for (var i=0;i<this.element.length;i++){
                 this.element[i].getAttribute(arguments[0]);
             }
